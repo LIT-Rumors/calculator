@@ -9,7 +9,7 @@ public class OperationFactory {
 	public static ICalculationOperation getOperation(CalcAction sub) {
 
 		switch (sub) {
-			case POW:
+			case POW: return new PowOperation();
 			case ADD:
 			case DIV:
 			case MULT:
