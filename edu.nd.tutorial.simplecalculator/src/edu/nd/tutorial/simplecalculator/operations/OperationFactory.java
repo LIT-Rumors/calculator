@@ -10,7 +10,7 @@ public class OperationFactory {
 
 		switch (sub) {
 			case POW: return new PowOperation();
-			case ADD:
+			case ADD: 
 			case DIV:
 			case MULT:
 			case SUB: 
