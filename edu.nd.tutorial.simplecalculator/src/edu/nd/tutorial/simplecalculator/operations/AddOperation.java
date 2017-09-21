@@ -7,7 +7,7 @@ public class AddOperation implements ICalculationOperation {
 	@Override
 	public String caclulate(String txt) {
 		System.out.println("Addition Operation Executed!");
-		String[] terms = txt.split("+");
+		String[] terms = txt.split("\\+");
 		if (terms.length == 2) {
 			return (Integer.parseInt(terms[0]) + Integer.parseInt(terms[1])) + "";
 		}
